@@ -1,0 +1,35 @@
+******
+fA 0.2
+hAB 25
+r 3.4
+******
+blockNum 2
+blockSeq
+start end type multi coef dir len ds
+0 1 A 1 1 R 0.2 0.01
+1 2 B 1 1 L 0.8 0.01
+******
+lmax 127
+mmax 127
+nlat 128
+nphi 256
+gridType gauss
+******
+initMode random
+initFile phin.txt
+******
+itrMax 500
+threadNum 2
+removeAvgFld N
+******
+simple mixing
+acc 0.05
+******
+Anderson mixing
+errThreshold 0.05
+stepThreshold 30
+nHist 30
+******
+phoutStep 20
+printoutStep 10
+******
